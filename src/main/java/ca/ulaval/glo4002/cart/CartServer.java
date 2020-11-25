@@ -23,10 +23,15 @@ public class CartServer implements Runnable {
     private static int port;
 
     public static void main(String[] args) {
+        System.out.println("-------------------------------------------------------------------------------------");
         if (args.length > 0){
             port = Integer.parseInt(args[0]);
+            System.out.println("-------------------------------------------------------------------------------------");
+            System.out.println(args[0]);
         }
         else{
+            System.out.println("-------------------------------------------------------------------------------------");
+            System.out.println("7222");
             port =  7222;
         }
 
