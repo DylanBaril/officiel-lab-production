@@ -1,1 +1,1 @@
-web: java -Dport=$PORT -Dstore=memory -jar target/test-release-heroku-lab-1.0.0-SNAPSHOT.jar
+web: java -Dport=$PORT -Dstore=memory -jar target/releaseHeroku-1.0.0-SNAPSHOT.jar
